@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Your awesome silde title</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="Shoichi Aizawa">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="../reveal.js/css/reveal.css">
+
+    <!-- beige/black/blood/league/moon/night/serif/simple/sky/solarized/white/ -->
+    <link rel="stylesheet" href="../reveal.js/css/theme/black.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
+
+    <style>
+      /* Style as necessary */
+    </style>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '../reveal.js/css/print/pdf.css' : '../reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="../reveal.js/lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section data-markdown
+                 data-separator="\n---\n$"
+                 data-separator-vertical="\n--\n$"
+                 data-separator-notes="^Note:">
+          <script type="text/template">
+            # インターンシップレポート<br>@<br>株式会社スターシステム<!-- .element: style="font-size: 1.9em;" -->
+
+            ### 2017/01/31～2017/02/23
+
+            <small>Created by <a href="https://shoichiaizawa.github.io" target="_blank">Shoichi Aizawa</a></small>
+
+            ---
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 発表内容
+
+            <hr>
+
+            1. 自己紹介
+            2. 実習中に行ったこと
+            3. 苦労した点
+            4. まとめ
+
+            ---
+
+            ## 1. 自己紹介
+
+            --
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 1. 自己紹介
+
+            <hr>
+
+            - 相澤翔一
+            - インテックスITナレッジWebアプリ科<br>（６ヶ月コース）
+            - 興味:
+              - 機械学習 / データサイエンス (Python)
+              - JavaScript (Node.js)
+              - オープンソース開発 (GitHub)
+
+            Note:
+            - インテックスITナレッジWebアプリ科（６ヶ月コース）
+              - ビジネスマナー
+              - MS Office
+              - HTML/CSS & JavaScriptを使った静的サイト作成
+              - 上記 + PHP & MySqlを使った動的サイト作成
+              - Java (基礎・JSP & Servlet)
+
+            --
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 1. 自己紹介
+            #### 職業訓練に至った経緯
+
+            <hr>
+
+            - 美容師 <!-- .element: class="fragment" -->
+            - 販売 <!-- .element: class="fragment" -->
+            - 学校 <!-- .element: class="fragment" -->
+            - 体調崩す <!-- .element: class="fragment" -->
+            - テンポラリーで仕事 <!-- .element: class="fragment" -->
+            - 訓練校（ｲﾏｺｺ） <!-- .element: class="fragment" -->
+
+            --
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 1. 自己紹介
+            #### スターシステムを実習先に選んだ理由
+
+            <hr>
+
+            一月中旬に島田さんがインターンシップの説明会のために訓練校に来た時に<!-- .element: class="fragment" data-fragment-index="1" -->
+
+            > 「うちのインターンシップでは<br>アルゴリズム問題をひたすら解かせます！」<!-- .element: class="fragment" data-fragment-index="1" -->
+
+            と言っていたため。<!-- .element: class="fragment" data-fragment-index="1" -->
+
+            ---
+
+            ## 2. 実習中に行ったこと
+
+            --
+
+            <!-- .slide: data-background-image="images/aoj-top.png" -->
+
+            --
+
+            <!-- .slide: data-background-image="images/aoj-top.png" -->
+
+            ## Aizu<br>Online<br>Judge<!-- .element: style="font-size: 3.5em; color: red;" -->
+
+            --
+
+            <!-- .slide: data-background-image="images/aoj-top.png" -->
+
+            <img src="images/python-logo.jpg" alt="Python logo" width="150%" height="150%">
+
+            --
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 2. 実習中に行ったこと
+            #### なぜPythonを選んだのか？
+
+            <hr>
+
+            > Pythonの機械学習ライブラリが豊富さ・実績において抜きん出ている。<!-- .element: class="fragment" data-fragment-index="1" -->
+
+            |ライブラリ|説明|
+            |:---|:---|
+            |[scikit-learn](http://scikit-learn.org/stable/)|たくさんの機械学習の手法を集めたライブラリ。|
+            |[TensorFlow](https://www.tensorflow.org/)|Googleが開発しているディープラーニングのフレームワーク。|
+            |[NumPy](http://www.numpy.org/)|数値計算用ライブラリ。<br>高速に計算でき、計算時間がシビアな機械学習に使われることが多い。|
+
+            <!-- .element: class="fragment" data-fragment-index="1" -->
+            <!-- .element: style="font-size: .5em ;" -->
+
+            出典：[機械学習をこれから学ぶ人がPythonを使うべき3つの理由](http://qiita.com/saitoxu/items/dafa5807c258bb43a5b3)
+
+            <!-- .element: class="fragment" data-fragment-index="1" -->
+            <!-- .element: style="font-size: .5em ;" -->
+
+            Note:
+            - scikit-learn
+              - 教師あり学習：
+                - 回帰分析
+                - サポートベクターマシン
+              - 教師なし学習：
+                - クラスタ解析
+                - K平均法
+              - etc
+
+            --
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 2. 実習中に行ったこと
+
+            <hr>
+
+            1. Pythonの開発環境の構築
+            2. Aizu Online Judge
+              - Introduction to Programming I (Part 1-9, 11)
+              - Rummy
+              - The Number of Island
+
+            --
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 2-1. Pythonの開発環境の構築
+
+            <hr>
+
+            - WindowsにPythonを直に入れることもできるがファイルシステムが汚れるのでやめる、どうしたか？ <!-- .element: class="fragment" -->
+              - VirtualBox+Vagrantを使い、Linuxの仮想環境を構築 <!-- .element: class="fragment" -->
+
+              ![Vagrant VirtualBox Ubuntu](images/vagrant-virtualbox-ubuntu.png) <!-- .element: class="fragment" -->
+
+            --
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 2-1. Pythonの開発環境の構築
+
+            <hr>
+
+            - Git for Windows (Git Bash)
+            - VirtualBox (PC仮想化ソフトウェア)
+            - Vagrant
+            - Atom
+            - MinGW (ターミナルエミュレータ)
+              - `tmux`
+              - `pyenv`
+              - `bpython`
+              - `flake8`
+              - `YouCompleteMe`
+
+            --
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 2-1. Pythonの開発環境の構築
+            #### Vagrantの利点
+
+            <hr>
+
+            1. 実行環境を開発と本番で揃えたい。
+            2. 開発環境を構築する際に個人のローカル環境に依存しないようにしたい。
+            3. すぐに使える仮想環境を構築したい。
+            4. 環境構築を自動化したい。
+            5. チームで同一の環境を簡単に構築したい。
+
+            出典：[Vagrantって流行ってるらしいけど何が便利なの？](http://dev.classmethod.jp/server-side/virtual-box-vagrant/)
+
+            <!-- .element: style="font-size: .5em ;" -->
+
+            --
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 2-1. Pythonの開発環境の構築
+
+            <hr>
+
+            ![Development environment](images/python3-env-vagrant-ubuntu-tmux-vim.png)
+
+            --
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 2-1. Pythonの開発環境の構築
+
+            <hr>
+
+            ![Development environment](images/python3-env-vagrant-ubuntu-tmux-vim-labeled.png)
+
+            --
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 2-2. Aizu Online Judge
+
+            <hr>
+
+            - Introduction to Programming I
+            - Rummy
+            - The Number of Island
+
+            解答は[GitHub](https://github.com/shoichiaizawa/aoj_python3)にホストしました。
+
+            <img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="Octocat" width="30%" height="30%">
+
+            <!-- .element: style="display: inline-block;" -->
+            <!-- .element: style="text-align: right;" -->
+
+            ---
+
+            ## 苦労した点
+
+            --
+
+            <!-- .element: style="text-align: left;" -->
+
+            ## 苦労した点
+
+            <hr>
+            <br>
+
+            時間の使い方
+            <!-- .element: style="font-size: 2.5em;" -->
+            <!-- .element: class="fragment" -->
+
+            ---
+
+            ## 4. まとめ
+
+            ---
+
+            ## ご清聴ありがとうございました！<!-- .element: style="font-size: 1.5em;" -->
+
+          </script>
+        </section>
+      </div>
+
+    </div>
+
+    <script src="../reveal.js/lib/js/head.min.js"></script>
+    <script src="../reveal.js/js/reveal.js"></script>
+
+    <script>
+
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src: '../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '../reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '../reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '../reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
